@@ -1,3 +1,6 @@
+venv: 
+	python3  -m venv ~/.aad64_Individual-Project1
+
 install: 
 	pip install --upgrade pip && \
 	pip install -r requirements.txt
