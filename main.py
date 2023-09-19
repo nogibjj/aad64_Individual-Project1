@@ -1,5 +1,5 @@
 import pandas as pd
-from lib import average, med, standard_deviation
+from lib import average, med, standard_deviation, summary_stats, visualize_data
 
 df = pd.read_csv("RiskData_SumScores.csv")
 
@@ -12,7 +12,20 @@ print(
     + str(standard_deviation(df.loc[:, "Happy"]))
 )
 
+print(
+    "Overall summary statistics of full dataset relating to Risk Data is: "
+    + "\n"
+    + str(summary_stats(df))
+)
 
-def summary_stats(data):
-    result = data.describe()
-    return result
+visualize_data(
+    df,
+    "SES",
+    "RiskPreferences",
+    hue="Gender",
+    title="Violin Plot for Age vs Risk Preferences,"
+    + "\n"
+    + "separated by Gender [1: Male; 2: Female]",
+    xlabel="Socioeconomic Status",
+    ylabel="Risk Preferences",
+)
