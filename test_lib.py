@@ -1,7 +1,5 @@
 from lib import average, med, standard_deviation, visualize_data
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 import pandas as pd
 
 testing_data = pd.read_csv("RiskData_SumScores.csv")
