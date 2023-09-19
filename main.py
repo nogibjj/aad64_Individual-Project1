@@ -1,5 +1,5 @@
 import pandas as pd
-from lib import average, med, standard_deviation, visualize_data
+from lib import average, med, standard_deviation
 
 df = pd.read_csv("RiskData_SumScores.csv")
 
