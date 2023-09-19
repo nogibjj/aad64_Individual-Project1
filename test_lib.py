@@ -1,7 +1,5 @@
 from lib import average, med, standard_deviation, visualize_data
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 import pandas as pd
 
 testing_data = pd.read_csv("RiskData_SumScores.csv")
@@ -30,7 +28,9 @@ visualize_data(
     "SES",
     "RiskPreferences",
     hue="Gender",
-    title="Violin Plot for Age vs Risk Preferences, separated by Gender [1: Male; 2: Female]",
+    title="Violin Plot for Age vs Risk Preferences,"
+    + "\n"
+    + "separated by Gender [1: Male; 2: Female]",
     xlabel="Socioeconomic Status",
     ylabel="Risk Preferences",
 )
