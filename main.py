@@ -1,11 +1,18 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+from lib import average, med, standard_deviation, visualize_data
 
-print("Mean of Sepal Lengths in iris.csv: " + 
-      str(average(df.iloc[:, 1])))
-print("Median of Sepal Lengths in iris.csv: " + 
-      str(med(df.iloc[:, 1])))
-print("Standard Deviation of Sepal Lengths in iris.csv: " + 
-      str(standard_deviation(df.iloc[:, 1])))
-print("Overall summary statistics of full dataset iris.csv: " + 
-      "\n" + str(summary_stats(df)))
+df = pd.read_csv("RiskData_SumScores.csv")
+
+print("Mean Risk Preferences of the sample is: " + str(average(df.loc[:, "Happy"])))
+
+print("Median Risk Preferences of the given sample is: " + str(med(df.loc[:, "Happy"])))
+
+print(
+    "Standard Deviation Risk Preferences is: "
+    + str(standard_deviation(df.loc[:, "Happy"]))
+)
+
+
+def summary_stats(data):
+    result = data.describe()
+    return result
