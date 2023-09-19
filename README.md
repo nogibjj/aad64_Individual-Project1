@@ -47,5 +47,5 @@ As visible below, my project is passing all formatting, linting, and tests:
 <p align = "center"><img width="542" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/6ee317ac-2e46-443f-a5c7-650afeba56a6"></p>
 
 ### Testing
-<p align = "center"><img width="1208" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/818db623-f42d-4fb6-964c-62fc00b6cdfa"></p>
+<p align = "center"><img width="1216" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/a9f06f7d-0fd4-4c56-8d91-8b1a2c41ad66"></p>
 
