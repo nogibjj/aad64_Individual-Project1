@@ -35,11 +35,17 @@ The contents of this project are:
 As visible below, my project is passing all formatting, linting, and tests:
 
 ### Linting
-<p align = "center"><img width="417" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/d1ba1d1e-b29d-401c-a3fc-2d00b1569df3"></p>
+*With PyLint:
+
+<p align = "center"><img width="614" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/7f64eef1-94fe-4d1b-8058-717746dea223"></p>
+
+*With Ruff:
+
+<p align = "center"><img width="525" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/a609f056-0954-4685-9acf-27960365e57c"></p>
 
 ### Formatting
-<p align = "center"><img width="407" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/00680819-8369-44f1-b55f-6e30ce41da3f"></p>
+<p align = "center"><img width="542" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/6ee317ac-2e46-443f-a5c7-650afeba56a6"></p>
 
 ### Testing
-<p align = "center"><img width="1277" alt="Screenshot 2023-09-11 at 11 53 40 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/6e4f0fce-c5b7-440b-9278-4ab91c1655bf"></p>
+<p align = "center"><img width="1208" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/818db623-f42d-4fb6-964c-62fc00b6cdfa"></p>
 
