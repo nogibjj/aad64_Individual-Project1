@@ -9,8 +9,8 @@ This project is an example of using Continuous Integration (or CI) in Python scr
 
 The contents of this project are: 
 * Jupyter Notebook with:
- * Cells that perform descriptive statistics using Polars or Panda.
- * Tested by using nbval plugin for pytest
+  * Cells that perform descriptive statistics using Polars or `Panda`.
+  * Tested by using nbval plugin for pytest.
 * [Python Script](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/main.py) performing the same descriptive statistics using Polars or Panda
 * lib.py file that shares the common code between the script and notebook
 * [Makefile](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/Makefile) with the following:
