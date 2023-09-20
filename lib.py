@@ -44,7 +44,7 @@ def visualize_data(
     data, x_column, y_column, hue=None, title=None, xlabel=None, ylabel=None
 ):
     """
-    Visualize data from a DataFrame using Seaborn's swarm plot.
+    Visualize data from a DataFrame using Seaborn's Violin plot.
 
     Args:
         data (pd.DataFrame): The DataFrame containing the data.
