@@ -21,3 +21,15 @@ def testing_main_std():
 testing_main_avg()
 testing_main_med()
 testing_main_std()
+
+# Testing Usage of Visualization function:
+
+visualize_data(
+    testing_data,
+    "SES",
+    "RiskPreferences",
+    hue="Gender",
+    title="Violin Plot for Age vs Risk Preferences, separated by Gender [1: Male; 2: Female]",
+    xlabel="Socioeconomic Status",
+    ylabel="Risk Preferences",
+)
