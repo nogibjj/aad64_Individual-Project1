@@ -17,6 +17,7 @@ lint:
 	ruff check *.py
 
 run:
+	python lib.py	
 	python main.py
 
 all: install lint format test
