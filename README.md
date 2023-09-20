@@ -3,7 +3,7 @@
 
 ## Summary
 
-This project is an example of using Continuous Integration (or CI) in Python script/project development using GitHub. This project acts as a stencil for future projects that as well since it provides a clear outline of the steps that a rpoject needs to follow to maintain consistency, robustness, and quality in the code. CI (here, the workflow) ensures that with git push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (both python script as well as Jupyter notebook).
+This project is an example of using Continuous Integration (or CI) in Python script/project development using GitHub. This project acts as a stencil for future projects that as well since it provides a clear outline of the steps that a project needs to follow to maintain consistency, robustness, and quality in the code. CI (here, the workflow) ensures that with git push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (both python script as well as Jupyter notebook).
 
 
 ![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/format.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/lint.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/install.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/test.yml/badge.svg)
