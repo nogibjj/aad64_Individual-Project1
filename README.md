@@ -30,11 +30,11 @@ For this project, I have created functions in my `lib.py` file dedicated to doin
 * Calculating the `median`,
 * Calculating the `standard deviation` (rounded to two decimal places),
 * Displaying the overall `summmary statistics` of a dataset.
-<p align = "center"><img width="580" alt="Screenshot 2023-09-11 at 11 47 40 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/b0795143-b33d-461f-8459-3859896b7978"></p>
+<p align = "center"><img width="471" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/34e5a3a6-f194-4abb-ba25-399472ebdf51"></p>
 
 * `Visualizing` data in the form of a _violinplot_. It plots individuals Risk Preferences (y-axis) as per their Socioeconomic Status (x-axis), split by Gender (1: Male, 2: Female).
 
-<p align = "center"><img src = "https://github.com/nogibjj/aad64_Pandas-Script/assets/143753050/88038ddc-c28d-4183-a4c9-5078abd7aa73" width = 500px></p>
+<p align = "center"><img width="663" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/30daee65-db61-4131-87f7-bc6ef39b668a"></p>
 
 These descriptive statistics and visualization are then performed in my `main.py` file. 
 
@@ -46,11 +46,11 @@ My test files are then used to test the functionality of the defined functions (
 Below are screenshots to show that my project is passing all formatting, linting, and tests. However, each workflow's validity can also be seen in the badges at the top of the README.md file.
 
 ### Linting
-<p align = "center"><img width="417" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/d1ba1d1e-b29d-401c-a3fc-2d00b1569df3"></p>
+<p align = "center"><img width="614" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/7f64eef1-94fe-4d1b-8058-717746dea223"></p>
 
 ### Formatting
-<p align = "center"><img width="407" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/00680819-8369-44f1-b55f-6e30ce41da3f"></p>
+<p align = "center"><img width="542" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/6ee317ac-2e46-443f-a5c7-650afeba56a6"></p>
 
 ### Testing
-<p align = "center"><img width="1277" alt="Screenshot 2023-09-11 at 11 53 40 AM" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/6e4f0fce-c5b7-440b-9278-4ab91c1655bf"></p>
+<p align = "center"><img width="1199" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/f6a1400e-9011-4ff8-a040-94a703d34f46"></p>
 
