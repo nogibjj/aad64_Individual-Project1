@@ -8,7 +8,7 @@ This project is an example of using Continuous Integration (or CI) in Python scr
 
 ![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/format.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/lint.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/install.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/test.yml/badge.svg)
 
-# YouTube Video: 
+### YouTube Video: 
 [Click Here](https://youtu.be/Y3AYPYSrfy0)
 
 ## Contents:
