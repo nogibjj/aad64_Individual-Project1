@@ -8,9 +8,25 @@ This project is an example of using Continuous Integration (or CI) in Python scr
 
 ![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/format.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/lint.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/install.yml/badge.svg)![example workflow](https://github.com/nogibjj/aad64_Individual-Project1/actions/workflows/test.yml/badge.svg)
 
-This assignment is designed to introduce us to pandas descriptive scripts. For the same, the main edit made was to add pandas==2.1.0 to my requirements.txt file.
+## Contents:
+* Jupyter Notebook with:
+  * Cells that perform descriptive statistics using Polars or `Pandas`.
+  * Tested by using nbval plugin for pytest
+* [Python Script](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/main.py) performing the same descriptive statistics using Polars or `Pandas`.
+* [lib.py](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/lib.py) file that shares the common code between the script and notebook
+* [Makefile](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/Makefile) with the following:
+  * Run all tests (must test notebook and script and lib)
+  * Formats code with Python black
+  * Lints code with Ruff
+  * Installs code via:  pip install -r requirements.txt
+* [test_script.py](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/test_script.py) to test script
+* [test_lib.py](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/test_lib.py) to test library
+* Pinned [requirements.txt](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/requirements.txt)
+* [GitHub Actions](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/.github/workflows) performs all four Makefile commands with badges for each one in the README.md
 
-Here, I have created a project which has functions dedicated to doing the following on a given dataset and returning the output: 
+## More about the Functionality of this Project:
+
+For this project, I created descriptive statistics and visualization functions in the `lib.py` file as follows: 
 * Calculating the `mean` (rounded to two decimal places),
 * Calculating the `median`,
 * Calculating the `standard deviation` (rounded to two decimal places),
@@ -28,17 +44,7 @@ These descriptive statistics and visualization are then performed in my `main.py
 
 My test files are then used to test the functionality of the defined functions (in the `test_lib.py` file) and the validity inputs for each function (tested in the `test_script.py`).
 
-I have also created a test file to ensure that the mean, median, and standard deviation functions are correctly functioning (using asserts).
-
-The contents of this project are: 
-* `.devcontainer` (with a [devcontainer.json](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/.devcontainer/devcontainer.json) and a [Dockerfile](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/.devcontainer/Dockerfile)), 
-* `Github Actions`, 
-* `.gitignore file`, 
-* [Makefile](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/Makefile), 
-* [requirements.txt](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/requirements.txt), 
-* [main.py](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/main.py), 
-* [test_main.py](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/test_main.py), and 
-* [RiskData_SumScores.csv](https://github.com/nogibjj/aad64_Individual-Project1/edit/main/RiskData_SumScores.csv).
+## Workflows:
 
 Below are screenshots to show that my project is passing all formatting, linting, and tests. However, each workflow's validity can also be seen in the badges at the top of the README.md file.
 
