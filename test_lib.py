@@ -1,7 +1,5 @@
 from lib import average, med, standard_deviation
 
-import pandas as pd
-
 testing_data = pd.read_csv("RiskData_SumScores.csv")
 testing_med = testing_data.loc[:, "Happy"]
 
@@ -29,7 +27,9 @@ visualize_data(
     "SES",
     "RiskPreferences",
     hue="Gender",
-    title="Violin Plot for Age vs Risk Preferences, separated by Gender [1: Male; 2: Female]",
+    title="Violin Plot for Age vs Risk Preferences," + 
+    "\n" +  
+    "separated by Gender [1: Male; 2: Female]",
     xlabel="Socioeconomic Status",
     ylabel="Risk Preferences",
 )
