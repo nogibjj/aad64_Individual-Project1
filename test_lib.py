@@ -1,4 +1,4 @@
-from lib import average, med, standard_deviation
+from lib import average, med, standard_deviation, visualize_data
 
 testing_data = pd.read_csv("RiskData_SumScores.csv")
 testing_med = testing_data.loc[:, "Happy"]
