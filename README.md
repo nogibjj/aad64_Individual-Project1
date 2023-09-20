@@ -14,12 +14,15 @@ Here, I have created a project which has functions dedicated to doing the follow
 * Calculating the `mean` (rounded to two decimal places),
 * Calculating the `median`,
 * Calculating the `standard deviation` (rounded to two decimal places),
-* Displaying the overall `summmary statistics` of a dataset.
 <p align = "center"><img width="471" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/34e5a3a6-f194-4abb-ba25-399472ebdf51"></p>
+
+* Displaying the overall `summmary statistics` of a dataset.
+
+<p align = "center"><img width="663" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/30daee65-db61-4131-87f7-bc6ef39b668a"></p>
 
 * `Visualizing` data in the form of a _violinplot_. It plots individuals Risk Preferences (y-axis) as per their Socioeconomic Status (x-axis), split by Gender (1: Male, 2: Female).
 
-<p align = "center"><img width="663" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/30daee65-db61-4131-87f7-bc6ef39b668a"></p>
+<p align = "center"><img src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/9ab0fcc7-32cc-404c-a9af-6437a6620faa"></p>
 
 These descriptive statistics and visualization are then performed in my `main.py` file. 
 
