@@ -1,4 +1,8 @@
 import pandas as pd
+
+import warnings
+warnings.filterwarnings('ignore', category=FutureWarning)
+
 from lib import average, med, standard_deviation, summary_stats, visualize_data
 
 df = pd.read_csv("RiskData_SumScores.csv")
