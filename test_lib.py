@@ -28,9 +28,9 @@ visualize_data(
     "SES",
     "RiskPreferences",
     hue="Gender",
-    title="Violin Plot for Age vs Risk Preferences," + 
-    "\n" +  
-    "separated by Gender [1: Male; 2: Female]",
+    title="Violin Plot for Age vs Risk Preferences,"
+    + "\n"
+    + "separated by Gender [1: Male; 2: Female]",
     xlabel="Socioeconomic Status",
     ylabel="Risk Preferences",
 )
