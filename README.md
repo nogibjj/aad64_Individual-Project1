@@ -22,7 +22,7 @@ Here, I have created a project which has functions dedicated to doing the follow
 
 * `Visualizing` data in the form of a _violinplot_. It plots individuals Risk Preferences (y-axis) as per their Socioeconomic Status (x-axis), split by Gender (1: Male, 2: Female).
 
-<p align = "center"><img src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/9ab0fcc7-32cc-404c-a9af-6437a6620faa"></p>
+<p align = "center"><img src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/13af54c2-9718-4fcd-81d0-24da6005809f"></p>
 
 These descriptive statistics and visualization are then performed in my `main.py` file. 
 
