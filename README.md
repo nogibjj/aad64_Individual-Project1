@@ -46,6 +46,10 @@ My test files are then used to test the functionality of the defined functions (
 Below are screenshots to show that my project is passing all formatting, linting, and tests. However, each workflow's validity can also be seen in the badges at the top of the README.md file.
 
 ### Linting
+* With Ruff:
+<p align = "center"><img width="525" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/a609f056-0954-4685-9acf-27960365e57c"></p>
+
+* With Pylint (to check score):
 <p align = "center"><img width="614" alt="image" src="https://github.com/nogibjj/aad64_Individual-Project1/assets/143753050/7f64eef1-94fe-4d1b-8058-717746dea223"></p>
 
 ### Formatting
